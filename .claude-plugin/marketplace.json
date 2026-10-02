@@ -1,0 +1,8 @@
+{
+  "name": "claude-code-blackjack",
+  "owner": { "name": "michaeldavodovski" },
+  "metadata": {
+    "description": "A blackjack table for Claude Code, to play while Claude works"
+  },
+  "plugins": [{ "name": "blackjack", "source": "./" }]
+}

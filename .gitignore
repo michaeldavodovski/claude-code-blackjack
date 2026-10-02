@@ -1,0 +1,11 @@
+# Type declarations Claude Code writes beside the mod each time it loads
+.claude-plugin/types/
+
+# Tooling caches
+node_modules/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp

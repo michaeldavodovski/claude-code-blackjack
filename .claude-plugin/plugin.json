@@ -1,0 +1,26 @@
+{
+  "name": "blackjack",
+  "version": "0.1.5",
+  "description": "A blackjack table in a side pane to play while Claude works",
+  "author": { "name": "michaeldavodovski" },
+  "homepage": "https://github.com/michaeldavodovski/claude-code-blackjack",
+  "repository": "https://github.com/michaeldavodovski/claude-code-blackjack",
+  "license": "MIT",
+  "keywords": ["mod", "game", "blackjack", "pane"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoOpen": {
+      "type": "boolean",
+      "title": "Open automatically",
+      "description": "Open the blackjack table by itself when Claude starts working (fullscreen layout only). Off: it opens only with /blackjack.",
+      "default": true
+    },
+    "theme": {
+      "type": "string",
+      "title": "Theme",
+      "description": "The table's colors: dark for a dark terminal, light for a light one.",
+      "options": ["dark", "light"],
+      "default": "dark"
+    }
+  }
+}
